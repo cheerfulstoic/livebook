@@ -45,7 +45,8 @@ livebook server --help
 ```
 
 After you install the escript, make sure you add the directory where
-Elixir keeps escripts to your [$PATH](https://en.wikipedia.org/wiki/PATH_(variable)).
+Elixir keeps escripts to your [$PATH](https://en.wikipedia.org/wiki/PATH_(variable))
+(you may get an error like `livebook: command not found`)
 If you installed Elixir with `asdf`, you'll need to run `asdf reshim elixir`
 once the escript is built.
 
